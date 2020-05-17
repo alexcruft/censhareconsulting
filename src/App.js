@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react'; 
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.js';
-import React, { Component } from 'react'; 
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 
 function App() {
   return (
